@@ -65,8 +65,8 @@ Used to persist cart data across browser refreshes.
 ### Protected Routes
 Unauthorized users attempting to access Checkout are redirected to Login.
 
-## Installation
+##Deployment
+The project is deployed using Vercel.
 
-```bash
-npm install
-npm run dev
+##Live Demo
+https://shopzone-sepia.vercel.app/
