@@ -1,0 +1,38 @@
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 40px;
+  background:#111827;
+  color:white;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.logo{
+  font-size:30px;
+  font-weight:bold;
+  background:linear-gradient(to right,#60a5fa,#a78bfa);
+
+  background-clip:text;
+  -webkit-background-clip:text;
+
+  -webkit-text-fill-color:transparent;
+}
+
+.nav-links{
+  display:flex;
+  gap:28px;
+  align-items:center;
+}
+
+.nav-links a{
+  color:white;
+  font-weight:500;
+  transition:0.3s;
+}
+
+.nav-links a:hover{
+  color:#60a5fa;
+}

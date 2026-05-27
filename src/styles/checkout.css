@@ -1,0 +1,139 @@
+.checkout-page{
+  min-height:90vh;
+  background:linear-gradient(135deg,#eef2ff,#f8fafc);
+  padding:40px 20px;
+}
+
+.checkout-box{
+  max-width:750px;
+  margin:auto;
+  background:white;
+  padding:35px;
+  border-radius:18px;
+  box-shadow:0 10px 25px rgba(15,23,42,0.12);
+}
+
+.checkout-label{
+  color:#2563eb;
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+.checkout-box h1{
+  color:#111827;
+  margin-bottom:25px;
+}
+
+.checkout-items{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.checkout-item{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  padding:18px;
+  background:#f8fafc;
+  border-radius:12px;
+}
+
+.checkout-item h3{
+  margin-bottom:6px;
+}
+
+.checkout-item p{
+  color:#666;
+}
+
+.checkout-total{
+  display:flex;
+  justify-content:space-between;
+  margin-top:25px;
+  padding-top:20px;
+  border-top:1px solid #e5e7eb;
+  font-size:22px;
+}
+
+.place-order-btn{
+  width:100%;
+  margin-top:25px;
+  padding:14px;
+  border-radius:10px;
+  background:#2563eb;
+  color:white;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.place-order-btn:hover{
+  background:#1d4ed8;
+}
+
+.empty-checkout{
+  color:#555;
+}
+
+.success-box{
+  text-align:center;
+}
+.checkout-box input[type="text"],
+.checkout-box input[type="email"],
+.checkout-box textarea{
+  width:100%;
+  padding:13px;
+  margin-bottom:14px;
+  border:1px solid #d1d5db;
+  border-radius:10px;
+  font-size:15px;
+}
+
+.checkout-box textarea{
+  min-height:90px;
+  resize:none;
+}
+
+.summary-title{
+  margin:20px 0 15px;
+  color:#111827;
+}
+.saved-text{
+  color:#2563eb;
+  margin:15px 0;
+  font-weight:600;
+}
+
+.saved-details{
+  text-align:left;
+  background:#f8fafc;
+  padding:18px;
+  border-radius:12px;
+  margin:20px 0;
+}
+
+.saved-details p{
+  margin-bottom:8px;
+}
+.payment-heading{
+  margin:15px 0 10px;
+  color:#111827;
+}
+
+.payment-options{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+.payment-options label{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:#444;
+}
+.payment-options input{
+  width:auto;
+  margin:0;
+}
